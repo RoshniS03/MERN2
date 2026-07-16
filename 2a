@@ -1,0 +1,10 @@
+function calculateSalary(name , basicSalary){ 
+let bonous = 5000; 
+let totalSalary = basicSalary + bonous; 
+console.log("Emplyoee Name: ",name); 
+console.log("Basic Salary: ", basicSalary); 
+console.log("Bonous : ", bonous); 
+console.log("Total Salry: ",totalSalary); 
+} 
+calculateSalary("Amit",30000); 
+console.log("Roshni") 
