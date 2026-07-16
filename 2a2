@@ -1,0 +1,10 @@
+function genbill(product, quantity, price){ 
+let total = quantity * price; 
+let totalbill = total +(total*0.18); 
+console.log("Product Name: ",product); 
+console.log("Quantity ", quantity); 
+console.log("Price per Item: ",price); 
+console.log("Total Bill: ",totalbill);
+} 
+genbill("Mobile",2,8000); 
+console.log("Roshni"); 
