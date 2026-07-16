@@ -1,0 +1,11 @@
+let fruits = ["Mango","Apple","Pear"];
+let student = {
+name: "Roshni" ,
+age : 20 ,
+city: "Mumbai"
+};
+console.log("Fruits: ",fruits);
+console.log("Second Fruit: ",fruits[1]);
+console.log("Student Name: ",student.name);
+console.log("Student Age: ",student.age);
+console.log("Student City: ",student.city);
